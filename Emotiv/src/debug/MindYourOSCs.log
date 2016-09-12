@@ -1,0 +1,120 @@
+﻿Build started 12/09/2016 16:24:24.
+     1>Project "D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\DIADEMA\EPOC\mindyouroscs-code\Emotiv\src\MindYourOSCs.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\DIADEMA\community-sdk\include" /IC:\Qt\4.6.4\include\QtCore /IC:\Qt\4.6.4\include\QtGui /IC:\Qt\4.6.4\include /I.\..\include /IC:\Qt\4.6.4\include\ActiveQt /I.\debug /I. /I"C:\Qt\4.6.4\mkspecs\win32-msvc2008" /I.\oscpack /IDebug /I.\src /I.\ /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_GUI_LIB /D QT_CORE_LIB /D QT_THREAD_SUPPORT /Gm- /EHsc /MTd /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"debug\\" /Fd".\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt emotivconnectionthread.cpp -Zm200 -w34100 -w34189 -w34100 -w34189 
+         emotivconnectionthread.cpp
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(108): error C3861: 'ES_AffectivGetEngagementBoredomScore': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(109): error C3861: 'ES_AffectivGetExcitementShortTermScore': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(110): error C3861: 'ES_AffectivGetExcitementLongTermScore': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(111): error C3861: 'ES_AffectivGetMeditationScore': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(112): error C3861: 'ES_AffectivGetFrustrationScore': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(254): error C2146: syntax error : missing ';' before identifier 'actionLow'
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(254): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(254): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(255): error C2146: syntax error : missing ';' before identifier 'actionHigh'
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(255): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(255): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(214): error C3861: 'ES_ExpressivGetEyelidState': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(215): error C3861: 'ES_ExpressivGetEyeLocation': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(217): error C2065: 'actionLow' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(217): error C3861: 'ES_ExpressivGetLowerFaceAction': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(218): error C3861: 'ES_ExpressivGetLowerFaceActionPower': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(220): error C2065: 'actionHigh' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(220): error C3861: 'ES_ExpressivGetUpperFaceAction': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(221): error C3861: 'ES_ExpressivGetUpperFaceActionPower': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(227): error C2065: 'actionLow' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(227): error C2065: 'EXP_SMILE' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(227): error C2065: 'EXP_SMILE' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(228): error C2065: 'actionLow' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(228): error C2065: 'EXP_CLENCH' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(228): error C2065: 'EXP_CLENCH' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(229): error C2065: 'actionLow' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(229): error C2065: 'EXP_LAUGH' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(229): error C2065: 'EXP_LAUGH' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(230): error C2065: 'actionLow' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(230): error C2065: 'EXP_SMIRK_LEFT' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(230): error C2065: 'EXP_SMIRK_LEFT' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(231): error C2065: 'actionLow' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(231): error C2065: 'EXP_SMIRK_RIGHT' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(231): error C2065: 'EXP_SMIRK_RIGHT' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(233): error C2065: 'actionHigh' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(233): error C2065: 'EXP_EYEBROW' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(233): error C2065: 'EXP_EYEBROW' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(234): error C2065: 'actionHigh' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(234): error C2065: 'EXP_FURROW' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(234): error C2065: 'EXP_FURROW' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(263): error C2065: 'EE_CognitivAction_t' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(264): error C2146: syntax error : missing ';' before identifier 'currentCogType'
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(264): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(264): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(268): error C2512: 'QMap' : no appropriate default constructor available
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(270): error C2065: 'currentCogType' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(270): error C2065: 'COG_NEUTRAL' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(272): error C2065: 'COG_NEUTRAL' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(273): error C2065: 'COG_PUSH' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(274): error C2065: 'COG_PULL' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(275): error C2065: 'COG_LIFT' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(276): error C2065: 'COG_DROP' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(277): error C2065: 'COG_LEFT' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(278): error C2065: 'COG_RIGHT' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(279): error C2065: 'COG_ROTATE_LEFT' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(280): error C2065: 'COG_ROTATE_RIGHT' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(281): error C2065: 'COG_ROTATE_CLOCKWISE' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(282): error C2065: 'COG_ROTATE_COUNTER_CLOCKWISE' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(283): error C2065: 'COG_ROTATE_FORWARDS' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(284): error C2065: 'COG_ROTATE_REVERSE' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(285): error C2065: 'COG_DISAPPEAR' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(290): error C2065: 'currentCogType' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(290): error C3861: 'ES_CognitivGetCurrentAction': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(291): error C3861: 'ES_CognitivGetCurrentActionPower': identifier not found
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(296): error C2065: 'currentCogType' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\commonutils.h(322): error C2558: class 'CognitivSuite' : no copy constructor available or copy constructor is declared 'explicit'
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(33): error C2146: syntax error : missing ';' before identifier 'targetChannelList'
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(34): error C2065: 'ED_COUNTER' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(35): error C2065: 'ED_AF3' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(35): error C2065: 'ED_F7' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(35): error C2065: 'ED_F3' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(35): error C2065: 'ED_FC5' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(35): error C2065: 'ED_T7' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(36): error C2065: 'ED_P7' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(36): error C2065: 'ED_O1' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(36): error C2065: 'ED_O2' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(36): error C2065: 'ED_P8' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(36): error C2065: 'ED_T8' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(37): error C2065: 'ED_FC6' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(37): error C2065: 'ED_F4' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(37): error C2065: 'ED_F8' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(37): error C2065: 'ED_AF4' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(37): error C2065: 'ED_GYROX' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(37): error C2065: 'ED_GYROY' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(37): error C2065: 'ED_TIMESTAMP' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(38): error C2065: 'ED_FUNC_ID' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(38): error C2065: 'ED_FUNC_VALUE' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(38): error C2065: 'ED_MARKER' : undeclared identifier
+     1>d:\0_desarrollo\0_moldeo\0_desarrollo\diadema\epoc\mindyouroscs-code\emotiv\src\emotivconnectionthread.h(39): error C2065: 'ED_SYNC_SIGNAL' : undeclared identifier
+     1>emotivconnectionthread.cpp(44): error C3861: 'EE_EmoEngineEventCreate': identifier not found
+     1>emotivconnectionthread.cpp(45): error C3861: 'EE_EmoStateCreate': identifier not found
+     1>emotivconnectionthread.cpp(49): error C3861: 'EE_EngineDisconnect': identifier not found
+     1>emotivconnectionthread.cpp(60): error C3861: 'EE_EngineConnect': identifier not found
+     1>emotivconnectionthread.cpp(62): error C3861: 'EE_EngineRemoteConnect': identifier not found
+     1>emotivconnectionthread.cpp(99): error C3861: 'EE_DataCreate': identifier not found
+     1>emotivconnectionthread.cpp(104): error C3861: 'EE_EngineGetNextEvent': identifier not found
+     1>emotivconnectionthread.cpp(108): error C2065: 'EE_Event_t' : undeclared identifier
+     1>emotivconnectionthread.cpp(108): error C2146: syntax error : missing ';' before identifier 'eventType'
+     1>emotivconnectionthread.cpp(108): error C2065: 'eventType' : undeclared identifier
+     1>emotivconnectionthread.cpp(108): error C3861: 'EE_EmoEngineEventGetType': identifier not found
+     1>emotivconnectionthread.cpp(109): error C3861: 'EE_EmoEngineEventGetUserId': identifier not found
+     1>emotivconnectionthread.cpp(111): error C2065: 'eventType' : undeclared identifier
+     1>emotivconnectionthread.cpp(111): error C2065: 'EE_UserAdded' : undeclared identifier
+     1>emotivconnectionthread.cpp(113): error C3861: 'EE_DataAcquisitionEnable': identifier not found
+     1>emotivconnectionthread.cpp(117): error C2065: 'eventType' : undeclared identifier
+     1>emotivconnectionthread.cpp(117): error C2065: 'EE_EmoStateUpdated' : undeclared identifier
+     1>emotivconnectionthread.cpp(119): error C3861: 'EE_EmoEngineEventGetEmoState': identifier not found
+     1>emotivconnectionthread.cpp(119): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\DIADEMA\EPOC\mindyouroscs-code\Emotiv\src\MindYourOSCs.vcxproj" (ClCompile target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.57

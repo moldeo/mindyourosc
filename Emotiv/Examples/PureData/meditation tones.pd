@@ -1,0 +1,34 @@
+#N canvas 201 206 693 555 10;
+#X declare -lib mrpeach;
+#X obj -58 27 import mrpeach;
+#X obj -39 129 unpackOSC;
+#X obj -47 376 mtof;
+#X obj 205 393 osc~;
+#X obj 205 448 dac~;
+#X text 243 346 [mtof] converts MIDI notes to frequency in Hertz.;
+#X text 243 393 [osc~] makes a cosine waveform.;
+#X text 245 446 Line out to soundcard.;
+#X obj -39 175 routeOSC /AFF;
+#X obj 90 151 print;
+#X text 161 88 Example of how to route OSC packets into a usable format
+with Mind Your OSCs;
+#X obj -61 71 udpreceive 7400;
+#X obj -39 227 routeOSC /Meditation;
+#X obj -47 280 * -20;
+#X obj -47 311 + 50;
+#X text -3 300 Will go between midi notes 30->50;
+#X text 133 141 Used print here to print ALL the data coming in Refer
+to console to see other paths;
+#X obj 4 339 print Midi tone;
+#X obj -47 416 print freq(Hz):;
+#X text 255 280;
+#X connect 1 0 8 0;
+#X connect 2 0 3 0;
+#X connect 2 0 18 0;
+#X connect 3 0 4 0;
+#X connect 8 0 12 0;
+#X connect 11 0 1 0;
+#X connect 12 0 13 0;
+#X connect 13 0 14 0;
+#X connect 14 0 2 0;
+#X connect 14 0 17 0;
